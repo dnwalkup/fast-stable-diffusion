@@ -335,7 +335,7 @@
 #          Maximum rate at which stream output can be sent on iopub before they are
 #          limited.
 #  Default: 1000000
-# c.NotebookApp.iopub_data_rate_limit = 1000000000000
+c.NotebookApp.iopub_data_rate_limit = 1000000000000
 
 ## (msgs/sec)
 #          Maximum rate at which messages can be sent on iopub before they are
@@ -496,7 +496,7 @@
 ## (sec) Time window used to
 #          check the message and data rate limits.
 #  Default: 3
-# c.NotebookApp.rate_limit_window = 20
+c.NotebookApp.rate_limit_window = 20
 
 ## Reraise exceptions encountered loading server extensions?
 #  Default: False
